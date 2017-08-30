@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:deskew="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/bitmap_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.ibm.datacap.sdk.ui.image.DocumentCornerPickerView
+        android:id="@+id/corner_picker"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        deskew:rectangleBorderWidth="2dp"
+        android:layout_alignBottom="@+id/bitmap_preview"
+        android:layout_alignTop="@+id/bitmap_preview"
+        deskew:rectangleOutboundColor="#CCD3D3D3"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/deskew"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="@string/deskew"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="@string/upload"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
