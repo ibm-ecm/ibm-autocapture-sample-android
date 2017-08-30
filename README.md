@@ -11,9 +11,9 @@ The sample source code provided is intended to demonstrate the usage of the Data
 
 ### Screenshots
 
-<img src="screenshots/camera_view.jpg" width="200"/>
-<img src="screenshots/deskew.jpg" width="200"/>
-<img src="screenshots/upload.jpg" width="200"/>
+<img src="screenshots/camera_view.png" width="200"/>
+<img src="screenshots/deskew.png" width="200"/>
+<img src="screenshots/upload.png" width="200"/>
 
 # Prerequisites
 
